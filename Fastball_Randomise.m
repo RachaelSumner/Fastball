@@ -8,6 +8,8 @@
 
 % NOTES:
 
+% Runs on Psychtoolbox-3 http://psychtoolbox.org/
+
 % Requires https://github.com/widmann/ppdev-mex for triggers, else add your
 % own and remove all trigger related code (commented in PARADIGM)
 
