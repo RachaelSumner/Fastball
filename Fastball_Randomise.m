@@ -54,7 +54,7 @@ NumDeviants = 20; %How many deviants? Round up to nearest NumTrials/10. Max poss
 ScreenRefreshRate = ; % Screen refresh rate in Hz
 PresentationRate = ; %Wait time for stimulus presentation and ISI in seconds. 
 % Note: in general this should be callibrated to the screen refresh rate, and your computers time delay for loading the image. 
-% e.g. PresentationRate = ((((1000/ScreenRefreshRate)*Positive integer that makes answer within these brackets closest to desired Hz)*0.001) - Any error remaining); 
+% e.g. PresentationRate = ((((1000/ScreenRefreshRate)*Positive integer that makes answer within these brackets closest to desired Hz)*0.001) - Any error remaining)/2; 
 %   If desired PresentationRate = 166 Hz:
 %       For a 60Hz Screen the Positive integer should be 10, for a 144 Hz screen it is 24 
 %       Error remaining can be determined by desired Hz - mean(Results.Duration)
